@@ -1,0 +1,19 @@
+{
+  "name": "swyftwitch",
+  "version": "1.0.1",
+  "description": "Custom twitch bot library",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.12.1"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.4"
+  }
+}
